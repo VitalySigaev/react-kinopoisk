@@ -1,0 +1,28 @@
+.reviewListContainer {
+    width: 70%;
+}
+
+.reviewListItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewListItemText {
+    display: flex;
+    width: 100%;
+}
+
+.reviewListItemTextRight {
+    text-align: right;
+}
+
+.reviewListItemTextCenter {
+    text-align: center;
+}
+
+.reviewListPagination {
+
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}

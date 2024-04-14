@@ -1,0 +1,53 @@
+.cardContainer {
+    display: flex;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.cardImage {
+    width: 200px !important;
+    height: 250px;
+    position: absolute;
+    border-radius: 10%;
+}
+
+.cardContent {
+    margin-left: 200px;
+}
+
+.cardPersonsAndReviews {
+    margin-top: 50px;
+    display: flex;
+}
+
+.cardPostersAndSimilarMovies {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+@media(max-width:767px) {
+
+    .cardPersonsAndReviews,
+    .cardPostersAndSimilarMovies {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .cardContent {
+        margin-left: 0;
+        margin-top: 410px;
+    }
+
+    .cardImage {
+        width: 290px !important;
+        height: 400px;
+
+    }
+
+    .cardPostersAndSimilarMovies>:first-child {
+        margin-bottom: 50px !important;
+    }
+
+}

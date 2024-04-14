@@ -1,0 +1,11 @@
+.carouselContainer {
+    width: 100%;
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.carouselImage {
+    height: 300px;
+    object-fit: contain !important;
+}

@@ -1,0 +1,9 @@
+.postersContainer{
+    width: 100%;
+    margin: 0 10px;
+}
+.posterImage{
+    height: 300px;
+    object-fit: contain !important;
+    padding-bottom: 32px;
+}
